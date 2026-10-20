@@ -16,6 +16,13 @@ export const metadata: Metadata = {
   title: "Iroko AI · Agentic Compliance for Nigerian Finance",
   description:
     "Turn scattered CBN, SEC, and NDPA regulatory documents into cite-first compliance answers, continuous risk alerts, and audit-ready decisions.",
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "any" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+  },
 };
 
 export default function RootLayout({
